@@ -30,9 +30,16 @@ Complexity:
 ![image](https://user-images.githubusercontent.com/61761700/154111231-dd7ca63a-e5ad-46b6-84ea-44966bf47846.png)
 
 When N is large enough DFT operation can take very long time.
+Time results:
+* DFT slow **363 ms ± 12.6 ms**
+* FFT - recursive implementation **7.24 ms ± 189 µs** 
+* FFT - iterative implementation **654 µs ± 30.5 µs**
+* Built fft function in Numpy **40.3 µs ± 3.22 µs**
 
 Fast Fourier transform Algorithms can be implemented using recursion or iteratively.
-
+An iteratively implemented algorithm is faster than a recursive algorithm. 
+The most common fast Fourier transform (FFT) algorithm is The Cooley–Tukey algorithm. 
+A radix-2 decimation-in-time (DIT) FFT is the simplest and most common form of the Cooley–Tukey algorithm which was implemented in my code.
 
 **2. Technologies**
 * Python 3.9
