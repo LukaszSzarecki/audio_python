@@ -6,6 +6,7 @@ I work with Jupyter notebooks. Some functions and classes in .py files are store
 ## Mel spectogram
 
 **1. Introduction**
+
 Python has some awesome libraries for audio processing. Librosa is one of the most popular. Librosa allows read files in different formats. 
 We can plot signal spectrum and spectograms. A mel spectrogram is a spectrogram where the frequencies are converted to the mel scale. The Mel scale was created because humans do not perceive frequencies linearly. 
 
